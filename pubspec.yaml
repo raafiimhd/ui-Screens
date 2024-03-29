@@ -1,0 +1,87 @@
+name: ul_screen
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  footer: ^0.0.4
+  percent_indicator: ^4.2.3
+  font_awesome_flutter: ^9.1.0
+
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/images/no1.jpg
+    - asset/images/istockphoto-95574723-1024x1024.jpg
+    - asset/images/fold-t-shirt-isolated_1339-135794.jpg
+    - asset/images/no2.jpg
+    - asset/images/no4.jpg
+    - asset/images/no5.jpg
+    - asset/images/Tottenham 23-24 Third Kit (5).jpg
+    - asset/images/download-7.webp
+    - asset/images/0cb077959b7f42afa674ae3500feb499_9366.webp
+    - asset/images/41p3Bc6d8zL._AC_UY1100_.jpg
+    - asset/images/81I23vw-8bL._AC_UY1100_.jpg
+    - asset/images/ad35ad488253438ca147aed1010d5e3b_9366.webp
+    - asset/images/download.jpg 
+    - asset/images/images.jpg
+    - asset/images/brazil-2022-home-away-kits-13.jpg
+    - asset/images/Video-Marketing-How-to-Get-Started.jpg
+    - asset/images/download (1).jpg
+    - asset/images/pngtree-original-model-folding-t-shirt-prototype-clothing-image_743165.jpg
+    - asset/images/istockphoto-95574723-1024x1024.jpg
+    - asset/images/tea.png
+    - asset/images/istockphoto-675264730-1024x1024.jpg
+    - asset/images/baby-designer-t-shirt-500x500.webp
+    - asset/images/Custom-Children-Short-Sleeve-T-Shirt-with-Print-or-Embroidery-Design-Clothing-Baby-Boys-Fashion-T-Shirt.jpg
+    - asset/images/pngtree-folded-t-shirts-image_740476.jpg
+    - asset/images/62b30f71b223544c209f5e55.png
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
